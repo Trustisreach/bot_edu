@@ -7,7 +7,11 @@ class Settings(BaseSettings):
     
     # Database
     DATABASE_URL: str
-    
+    POSTGRES_USER: str
+    POSTGRES_PASSWORD: str
+    POSTGRES_DB: str
+
+
     # S3
     S3_ENDPOINT_URL: str
     S3_ACCESS_KEY: str
